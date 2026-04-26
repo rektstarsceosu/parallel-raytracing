@@ -1,0 +1,74 @@
+[
+  {
+    "scene": "corridor",
+    "width": 640,
+    "height": 360,
+    "mode": "sequential",
+    "processes": 1,
+    "seconds": 7.390115700000024,
+    "speedup": 1.0
+  },
+  {
+    "scene": "corridor",
+    "width": 640,
+    "height": 360,
+    "mode": "parallel",
+    "processes": 4,
+    "seconds": 2.655476599999929,
+    "speedup": 2.782971501236434
+  },
+  {
+    "scene": "double",
+    "width": 640,
+    "height": 360,
+    "mode": "sequential",
+    "processes": 1,
+    "seconds": 5.546969899999567,
+    "speedup": 1.0
+  },
+  {
+    "scene": "double",
+    "width": 640,
+    "height": 360,
+    "mode": "parallel",
+    "processes": 4,
+    "seconds": 2.2085015000002386,
+    "speedup": 2.511644162342189
+  },
+  {
+    "scene": "many",
+    "width": 640,
+    "height": 360,
+    "mode": "sequential",
+    "processes": 1,
+    "seconds": 14.772177300000294,
+    "speedup": 1.0
+  },
+  {
+    "scene": "many",
+    "width": 640,
+    "height": 360,
+    "mode": "parallel",
+    "processes": 4,
+    "seconds": 5.2013403000000835,
+    "speedup": 2.8400712985458876
+  },
+  {
+    "scene": "simple",
+    "width": 640,
+    "height": 360,
+    "mode": "sequential",
+    "processes": 1,
+    "seconds": 3.738896400000158,
+    "speedup": 1.0
+  },
+  {
+    "scene": "simple",
+    "width": 640,
+    "height": 360,
+    "mode": "parallel",
+    "processes": 4,
+    "seconds": 1.6091765000001033,
+    "speedup": 2.3234843412142285
+  }
+]
