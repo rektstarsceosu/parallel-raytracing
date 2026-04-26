@@ -10,7 +10,9 @@ This project implements and compares two CPU ray tracing approaches in Python: a
 Install:
 
 1. `python -m venv .venv`
-2. `.venv\\Scripts\\activate`
+2. Activate the virtual environment:
+   - Windows: `.venv\\Scripts\\activate`
+   - Linux/macOS: `source .venv/bin/activate`
 3. `pip install -r requirements.txt`
 
 ## How to Run
